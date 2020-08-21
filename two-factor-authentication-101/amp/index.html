@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <title>احراز هویت دو عاملی به زبان ساده</title>
+
+    <meta name="description" content="احراز هویت دو عاملی یا رمز پویا چیست و چگونه به امنیت حساب‌های شما کمک می‌کند؟ چگونه قابل استفاده است و چه سرویس‌هایی از آن استفاده می‌کنند؟" />
+    <link rel="canonical" href="../index.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="تایپو" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="احراز هویت دو عاملی به زبان ساده" />
+    <meta property="og:description" content="احراز هویت دو عاملی یا رمز پویا چیست و چگونه به امنیت حساب‌های شما کمک می‌کند؟ چگونه قابل استفاده است و چه سرویس‌هایی از آن استفاده می‌کنند؟" />
+    <meta property="og:url" content="http://localhost:2370/two-factor-authentication-101/" />
+    <meta property="og:image" content="http://localhost:2370/content/images/2020/08/2FA-101-twitter.jpg" />
+    <meta property="article:published_time" content="2018-09-05T19:30:00.000Z" />
+    <meta property="article:modified_time" content="2020-08-21T10:25:41.000Z" />
+    <meta property="article:tag" content="به زبان ساده" />
+    <meta property="article:tag" content="حریم خصوصی" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="احراز هویت دو عاملی به زبان ساده" />
+    <meta name="twitter:description" content="احراز هویت دو عاملی یا رمز پویا چیست و چگونه به امنیت حساب‌های شما کمک می‌کند؟ چگونه قابل استفاده است و چه سرویس‌هایی از آن استفاده می‌کنند؟" />
+    <meta name="twitter:url" content="http://localhost:2370/two-factor-authentication-101/" />
+    <meta name="twitter:image" content="http://localhost:2370/content/images/2020/08/2FA-101-twitter-1.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Vox" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="به زبان ساده, حریم خصوصی" />
+    <meta name="twitter:site" content="@voxxp" />
+    <meta name="twitter:creator" content="@voxxp" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="401" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "تایپو",
+        "url": "http://localhost:2370/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2370/content/images/2020/08/logo.svg",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Vox",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2370/content/images/2020/08/_eHLUHSn_400x400.jpg",
+            "width": 400,
+            "height": 400
+        },
+        "url": "http://localhost:2370/author/vox/",
+        "sameAs": [
+            "https://typo.ir",
+            "https://twitter.com/voxxp"
+        ]
+    },
+    "headline": "احراز هویت دو عاملی به زبان ساده",
+    "url": "http://localhost:2370/two-factor-authentication-101/",
+    "datePublished": "2018-09-05T19:30:00.000Z",
+    "dateModified": "2020-08-21T10:25:41.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2370/content/images/2020/08/2FA-101.svg",
+        "width": 1333,
+        "height": 811
+    },
+    "keywords": "به زبان ساده, حریم خصوصی",
+    "description": "احراز هویت دو عاملی چیست و چگونه به امنیت حساب‌های شما کمک می‌کند؟ چگونه قابل استفاده است و چه سرویس‌هایی از آن استفاده می‌کنند؟",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2370/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 3.30" />
+    <link rel="alternate" type="application/rss+xml" title="تایپو" href="../../rss/index.html" />
+
+    <style amp-custom>
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        color: #3a4145;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.55em;
+        font-weight: 400;
+        font-style: normal;
+        background: #fff;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    p,
+    ul,
+    ol,
+    li,
+    dl,
+    dd,
+    hr,
+    pre,
+    form,
+    table,
+    video,
+    figure,
+    figcaption,
+    blockquote {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul[class],
+    ol[class] {
+        padding: 0;
+        list-style: none;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+
+    input,
+    button,
+    select,
+    textarea {
+        font: inherit;
+        -webkit-appearance: none;
+    }
+
+    fieldset {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    label {
+        display: block;
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    hr {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid currentcolor;
+        opacity: 0.1;
+    }
+
+    ::selection {
+        text-shadow: none;
+        background: #cbeafb;
+    }
+
+    mark {
+        background-color: #fdffb6;
+    }
+
+    small {
+        font-size: 80%;
+    }
+
+    sub,
+    sup {
+        position: relative;
+        font-size: 75%;
+        line-height: 0;
+        vertical-align: baseline;
+    }
+    sup {
+        top: -0.5em;
+    }
+    sub {
+        bottom: -0.25em;
+    }
+
+    ul li + li {
+        margin-top: 0.6em;
+    }
+
+    a {
+        color: #1292EE;
+        text-decoration-skip-ink: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        font-weight: 700;
+        color: #121212;
+        line-height: 1.4em;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 1.1em;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    h6 {
+        font-size: 1.6rem;
+    }
+
+    amp-img {
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    amp-img img {
+        object-fit: cover;
+    }
+
+    .page-header {
+        padding: 50px 5vmin 30px;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .page-header a {
+        color: #121212;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.6rem;
+        letter-spacing: -0.1px;
+    }
+
+    .post {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .post-header {
+        margin: 0 5vmin 5vmin;
+        text-align: center;
+    }
+
+    .post-meta {
+        margin: 1rem 0 0 0;
+        text-transform: uppercase;
+        color: #738a94;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .post-image {
+        margin: 0 0 5vmin;
+    }
+
+    .post-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .post-content {
+        padding: 0 5vmin;
+    }
+
+    .post-content > * + * {
+        margin-top: 1.5em;
+    }
+
+    .post-content [id]:not(:first-child) {
+        margin: 2em 0 0;
+    }
+
+    .post-content > [id] + * {
+        margin-top: 1rem;
+    }
+
+    .post-content [id] + .kg-card,
+    .post-content blockquote + .kg-card {
+        margin-top: 40px;
+    }
+
+    .post-content > ul,
+    .post-content > ol,
+    .post-content > dl {
+        padding-left: 1.9em;
+    }
+
+    .post-content hr {
+        margin-top: 40px;
+    }
+
+    .post .post-content hr + * {
+        margin-top: 40px;
+    }
+
+    .post-content amp-img {
+        background-color: #f8f8f8;
+    }
+
+    .post-content blockquote {
+        position: relative;
+        font-style: italic;
+    }
+
+    .post-content blockquote::before {
+        content: "";
+        position: absolute;
+        left: -1.5em;
+        top: 0;
+        bottom: 0;
+        width: 0.3rem;
+        background: #000;
+    }
+
+    .post-content :not(.kg-card):not([id]) + .kg-card {
+        margin-top: 40px;
+    }
+
+    .post-content .kg-card + :not(.kg-card) {
+        margin-top: 40px;
+    }
+
+    .kg-card figcaption {
+        padding: 1.5rem 1.5rem 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.4em;
+        opacity: 0.6;
+    }
+
+    .kg-card figcaption strong {
+        color: rgba(0,0,0,0.8);
+    }
+
+    .post-content :not(pre) code {
+        vertical-align: middle;
+        padding: 0.15em 0.4em 0.15em;
+        border: #e1eaef 1px solid;
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 1em;
+        color: #dc0050;
+        background: #f0f6f9;
+        border-radius: 0.25em;
+    }
+
+    .post-content > pre {
+        overflow: scroll;
+        padding: 16px 20px;
+        color: #fff;
+        background: #1F2428;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px -2px rgba(0,0,0,.1), 0 0 1px rgba(0,0,0,.4);
+    }
+
+    .kg-embed-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .kg-image-card img {
+        margin: auto;
+    }
+
+    .kg-gallery-card + .kg-gallery-card {
+        margin-top: 0.75em;
+    }
+
+    .kg-gallery-container {
+        position: relative;
+    }
+
+    .kg-gallery-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .kg-gallery-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .kg-gallery-row:not(:first-of-type) {
+        margin: 0.75em 0 0 0;
+    }
+
+    .kg-gallery-image:not(:first-of-type) {
+        margin: 0 0 0 0.75em;
+    }
+
+    .kg-bookmark-card,
+    .kg-bookmark-publisher {
+        position: relative;
+    }
+
+    .kg-bookmark-container,
+    .kg-bookmark-container:hover {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        color: currentColor;
+        background: rgba(255,255,255,0.6);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+    }
+
+    .kg-bookmark-content {
+        flex-basis: 0;
+        flex-grow: 999;
+        padding: 20px;
+        order: 1;
+    }
+
+    .kg-bookmark-title {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.3em;
+    }
+
+    .kg-bookmark-description {
+        display: -webkit-box;
+        max-height: 45px;
+        margin: 0.5em 0 0 0;
+        font-size: 1.4rem;
+        line-height: 1.55em;
+        overflow: hidden;
+        opacity: 0.8;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .kg-bookmark-metadata {
+        margin-top: 20px;
+    }
+
+    .kg-bookmark-metadata {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.3em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .kg-bookmark-description {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .kg-bookmark-metadata amp-img {
+        width: 18px;
+        height: 18px;
+        max-width: 18px;
+        max-height: 18px;
+        margin-right: 10px;
+    }
+
+    .kg-bookmark-thumbnail {
+        display: flex;
+        flex-basis: 20rem;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .kg-bookmark-thumbnail amp-img {
+        max-height: 200px;
+    }
+
+    .kg-bookmark-author {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .kg-bookmark-publisher::before {
+        content: "•";
+        margin: 0 .5em;
+    }
+
+    .kg-width-full.kg-card-hascaption {
+        display: grid;
+        grid-template-columns: inherit;
+    }
+
+    .post-content table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .post-content th {
+        padding: 0.5em 0.8em;
+        text-align: left;
+        font-size: .75em;
+        text-transform: uppercase;
+    }
+
+    .post-content td {
+        padding: 0.4em 0.7em;
+    }
+
+    .post-content tbody tr:nth-child(2n + 1) {
+        background-color: rgba(0,0,0,0.1);
+        padding: 1px;
+    }
+
+    .post-content tbody tr:nth-child(2n + 2) td:last-child {
+        box-shadow:
+            inset 1px 0 rgba(0,0,0,0.1),
+            inset -1px 0 rgba(0,0,0,0.1);
+    }
+
+    .post-content tbody tr:nth-child(2n + 2) td {
+        box-shadow: inset 1px 0 rgba(0,0,0,0.1);
+    }
+
+    .post-content tbody tr:last-child {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+
+    .page-footer {
+        padding: 60px 5vmin;
+        margin: 60px auto 0;
+        text-align: center;
+        background-color: #f8f8f8;
+    }
+
+    .page-footer h3 {
+        margin: 0.5rem 0 0 0;
+    }
+
+    .page-footer p {
+        max-width: 500px;
+        margin: 1rem auto 1.5rem;
+        font-size: 1.7rem;
+        line-height: 1.5em;
+        color: rgba(0,0,0,0.6)
+    }
+
+    .powered {
+        display: inline-flex;
+        align-items: center;
+        margin: 30px 0 0;
+        padding: 6px 9px 6px 6px;
+        border: rgba(0,0,0,0.1) 1px solid;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: -0.2px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-weight: 500;
+        color: #222;
+        text-decoration: none;
+        background: #fff;
+        border-radius: 6px;
+    }
+
+    .powered svg {
+        height: 16px;
+        width: 16px;
+        margin: 0 6px 0 0;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            font-size: 1.6rem;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            font-size: 2.6rem;
+            line-height: 1.15em;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 1.2em;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+    }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+</head>
+
+<body class="amp-template">
+    <header class="page-header">
+        <a href="../../index.html">
+                تایپو
+        </a>
+    </header>
+
+    <main class="content" role="main">
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">احراز هویت دو عاملی به زبان ساده</h1>
+                <section class="post-meta">
+                    Vox -
+                    <time class="post-date" datetime="۲۰۱۸-۰۹-۰۶">۰۶ سپتامبر ۲۰۱۸</time>
+                </section>
+            </header>
+            <figure class="post-image">
+                <amp-img src="http://localhost:2370/content/images/2020/08/2FA-101.svg" width="600" height="340" layout="responsive"></amp-img>
+            </figure>
+            <section class="post-content">
+
+                <p>تصور کنید هکری بدون اطلاع شما، رمز عبور یکی از حساب‌های کاربری مهم شما را متوجه شود. چه مانعی بین او و از دست رفتن تمامی اطلاعات شما و سواستفاده‌های احتمالی وجود دارد؟ <strong><em>احراز هویت دو عاملی</em></strong> و یا آنچه اخیرا با نام <strong>رمز پویا</strong> می‌شناسید، برای پاسخ به این سوال آمده است.</p><h2 id="-">احراز هویت دو عاملی چیست؟</h2><p>احراز هویت دو عاملی یک ویژگی ساده است که از شما چیزی بیشتر از تنها یک رمز عبور می‌خواهد. احراز هویت دو عاملی از دو عاملِ <strong><em>«چیزی که می‌دانید»</em></strong> (مانند رمز عبور) و <strong><em>«چیزی که دارید»</em></strong> (مانند تلفن همراه) یا <strong><em>«کسی که هستید»</em></strong> (مثل الگوی شبکیه‌ی چشم و یا اثر انگشت شما) تشکیل شده است. مطمئنا شما بارها از احراز هویت دو عاملی در زندگی خود استفاده کرده‌اید؛ مثلا هنگامی که در کنار ورود رمز حساب بانکی خود باید حتما کارت بانکی (که تنها در اختیار شما هست) را وارد کنید و یا وقتی که بعد از وارد کردن رمز گوشی خود از اسکن اثرانگشت و اسکن شبکیه چشمتان برای ورود استفاده می‌کنید.</p><figure class="kg-card kg-image-card kg-card-hascaption"><figcaption>تصویر از <a href="https://www.freepik.com/free-photos-vectors/card" rel="nofollow">slidesgo - freepik</a></figcaption></figure><p>در صورت محیا بودن این ویژگی، هنگامی که شما رمز عبور خود را در جایی وارد می‌کنید، رمز موقت دیگری (Time-based One Time Password) در اختیار شما قرار می‌گیرد که <strong><em>تنها شما به آن دسترسی دارید</em></strong> و تنها شما با استفاده از آن قادر به ورود به حسابتان هستید. این رمز موقت می‌تواند به ایمیل شما ارسال شود، به شما پیامک شود، به صورت تماس تلفنی به اطلاع شما برسد و یا به صورت خودکار توسط یک نرم‌افزار و یا سخت‌افزار که در اختیار شماست تولید شود.</p><p>رئیس جمهور ایالات متحده در سال ۲۰۱۶ در برنامه‌ای به نام <strong><em>«برنامه‌ی اقدام ملی برای امنیت سایبری»</em></strong> بر اهمیت این روش احراز هویت تاکید کرده:</p><blockquote>«شهروندان ایالات متحده را در ایمن ساختن حساب‌هایی آنلاین خود با افزودن لایه‌های امنیتی ورای رمز عبور، تقویت کنید. امریکایی‌ها می‌توانند با ترکیبی از رمز عبورهای قوی و عامل دیگری مانند اثر انگشت و یا رمز موقتی که با پیامک دریافت می‌شود، حساب‌های خود را ایمن‌تر سازند. رئیس جمهور از شهروندان ایالات متحده می‌خواهد که علاوه بر رمز عبور، از احراز هویت چند عاملی برای ورود به حساب‌های آنلاین خود استفاده کنند.» - <a href="https://obamawhitehouse.archives.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan" rel="nofollow">برنامه‌ی اقدام ملی برای امنیت سایبری</a>، دبیر مطبوعاتی کاخ سفید</blockquote><h3 id="--1">تفاوت احراز هویت دو عاملی با دومرحله‌ای چیست؟</h3><p>در احراز هویت دو مرحله‌ای، هر دو عامل ورود از نوع عامل اول یعنی «چیزی که می‌دانید» است. به طور مثال برای ورود به حساب خود علاوه بر رمز عبور نیاز به پاسخ به یک سوال شخصی (مثل تاریخ تولد) خواهید داشت. این روش نسبت به احراز هویت دو عاملی از امنیت کمتری برخوردار است زیرا این عامل نیز به راحتی توسط مهندسی اجتماعی و یا حملات فیشینگ قادر به هک شدن هستند.</p><h3 id="--2">احراز هویت دو عاملی چقدر امن است؟</h3><p><strong><em>امنیت مطلق نیست.</em></strong> با وجود اینکه احراز هویت دو عاملی یک لایه‌ی امنیتی قدرتمند دیگر به حساب‌های شما اضافه می‌کند، اما مصون از حملات هکرها نیست. به طور مثال در سال ۲۰۱۱ شرکت RSA <a href="https://web.archive.org/web/20110515010015/http://www.rsa.com/node.aspx?id=3872" rel="nofollow">اعلام کرد</a> که توکن‌های احراز هویت آن موسوم به SecurID هک شده است. برای هک سیستم‌های احراز هویت دو عاملی نیاز به دسترسی به عامل دوم (مثلا تلفن همراه یا اثر انگشت شما) و یا مکانیزم تولید رمز موقت است.</p><h3 id="--3">آیا استفاده از آن سخت است؟</h3><p>احراز هویت دو عاملی یک مرحله‌ی دیگر به پروسه‌ی ورود شما به حسابتان اضافه می‌کند. اینکه آیا یک مرحله بیشتر برای ورود به حساب، به امنیت بیشتر شما می‌ارزد یا خیر، بستگی به خودتان دارد!</p><h3 id="--4">چگونه از احراز هویت دوعاملی استفاده کنم؟</h3><p>بسته به سرویسی که از آن استفاده می‌کنید، در صورت محیا بودن احراز هویت دو عاملی، به طور معمول شما حداقل نیاز به یکی از این موارد را دارید: راه تماس تلفنی و یا ارسال پیامک، آدرس ایمیل، نرم‌افزار و یا سخت‌افزار تولید توکن.</p><p>مزیت استفاده از نرم‌افزار نسبت به پیامک، تماس تلفنی و ایمیل این است که دیگر <strong><em>نیازی به اتصال به شبکه‌ی مخابراتی و اینترنت نیست</em></strong> و تنها با باز کردن نرم‌افزار، می‌توانید رمز موقت خود برای ورود را دریافت کنید. بعلاوه احتمال شنود پیامک و سواستفاده از رمز‌های ورود محتمل است.</p><figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet" data-width="550"><p lang="fa" dir="rtl">صب که پاشدم, دیدم ی sms دارم. Sms کد تلگرام که وقتی از روی وب به تلگرام وصل میشم باید واردش کنم.تلگرامم رو چک کردم و متوجه شدم کسی واردش شده</p>— شکوفه حبیب زاده (@shokoohabibzade) <a href="https://twitter.com/shokoohabibzade/status/813272340280856576?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote>
+
+</figure><p>از جمله نرم‌افزارهای احراز هویت دو عاملی می‌توان به <a href="https://authy.com" rel="nofollow">Authy</a>، <a href="https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&amp;hl=en" rel="nofollow">Google Authenticator</a> و <a href="https://freeotp.github.io" rel="nofollow">FreeOTP</a> اشاره کرد. نرم‌افزارهای مدیریت رمز عبور مانند <a href="https://1password.com" rel="nofollow">1Password</a>، <a href="https://lastpass.com/auth/" rel="nofollow">LastPass</a> و <a href="https://www.dashlane.com" rel="nofollow">Dashlane</a> نیز از این امکان پشتیبانی می‌کنند.</p><p>در پروسه‌ی فعالسازی احراز هویت دو عاملی، کد QR و یا رمزی در اختیار شما قرار می‌گیرد که با اسکن و یا وارد کردن آن در این نرم‌افزارها، حساب شما فعال شده و رمز عبور موقتی در اختیار شما قرار می‌گیرد که برای احراز هویت دو عاملی قابل استفاده است. در نهایت یک کد پشتیبانی (یا ریکاوری) برای مواقعی که دسترسی به نرم‌افزار را ندارید در اختیار شما قرار می‌گیرد. این کد های پشتیبانی را در محلی ایمن نگهداری کنید تا در صورت از دست رفتن دسترسی به نرم‌افزار، کماکان قادر به ورود به سرویس‌های مورد نظر باشید.</p><p>سخت‌افزارهای احراز هویت دو عاملی، کلیدهای امنیتی Universal 2nd Factor (به اختصار U2F) و یکی از ایمن‌ترین روش‌های احراز هویت دو عاملی هستند که با اتصال به درگاه USB کامپیوتر شما و یا با کمک NFC، توکن‌ها را در اختیار سرویس‌هایی که از این پروتکل پیشتیبانی می‌کنند، قرار می‌دهند. از جمله این دستگاه‌ها می‌توان به <a href="https://www.yubico.com" rel="nofollow">YubiKey</a> اشاره کرد.</p><figure class="kg-card kg-embed-card kg-card-hascaption"><amp-youtube width="612" height="344" data-videoid="h8VsNGvTvbk" layout="responsive"></amp-youtube><figcaption><a href="https://www.aparat.com/v/OmAP8" rel="nofollow">مشاهده در آپارات</a></figcaption></figure><h3 id="--5">چه سرویس‌هایی از احراز هویت دو عاملی پشتیبانی می‌کنند؟</h3><p>بیشتر سرویس‌های نام آشنا حداقل از یک روش احراز هویت دو عاملی پشتیبانی می‌کنند. بخشی از این سرویس‌ها به طور خلاصه برای شما گردآوری شده و به صفحه‌ی راهنمای راه‌اندازی لینک شده‌اند. سرویس‌هایی که از  پیامک،  تماس تلفنی،  ایمیل،  نرم‌افزاری و  سخت‌افزاری پشتیبانی می‌کنند با آیکون‌های مربوطه مشخص شده‌اند.</p><h3 id="--6">شبکه‌های اجتماعی</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500px</td>
+<td></td>
+<td>Facebook</td>
+<td></td>
+<td>Google+</td>
+<td></td>
+</tr>
+<tr>
+<td>Instagram</td>
+<td></td>
+<td>LinkedIn</td>
+<td></td>
+<td>Pinterest</td>
+<td></td>
+</tr>
+<tr>
+<td>Reddit</td>
+<td></td>
+<td>Snapchat</td>
+<td></td>
+<td>Twitter</td>
+<td></td>
+</tr>
+<tr>
+<td>Tumbler</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--7">پیام‌رسان‌ها</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Signal</td>
+<td></td>
+<td>Skype</td>
+<td></td>
+<td>Telegram</td>
+<td></td>
+</tr>
+<tr>
+<td>WhatsApp</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--8">سرویس‌های ایمیل</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gmail</td>
+<td></td>
+<td>Outlook</td>
+<td></td>
+<td>ProtonMail</td>
+<td></td>
+</tr>
+<tr>
+<td>Yahoo Mail</td>
+<td></td>
+<td>Yandex.Mail</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--9">بانک‌ها</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>بانک آینده</td>
+<td></td>
+<td>بانک پاسارگاد</td>
+<td></td>
+<td>بانک توسعه تعاون</td>
+<td></td>
+</tr>
+<tr>
+<td>بانک گردشگری</td>
+<td></td>
+<td>بانک ملت</td>
+<td></td>
+<td>بانک ملی</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--10">فضاهای ابری</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apple iCloud</td>
+<td></td>
+<td>Dropbox</td>
+<td></td>
+<td>Google Drive</td>
+<td></td>
+</tr>
+<tr>
+<td>OneDrive</td>
+<td></td>
+<td>Sync</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--11">سرویس‌های مدیریت رمز عبور</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1Password</td>
+<td></td>
+<td>Dashlane</td>
+<td></td>
+<td>LastPass</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="--12">سایر سرویس‌ها</h3><table>
+<thead>
+<tr>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+<th>سرویس</th>
+<th>متد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adobe ID</td>
+<td></td>
+<td>Amazon</td>
+<td></td>
+<td>ابرآروان</td>
+<td></td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td></td>
+<td>Epic Games</td>
+<td></td>
+<td>Firefox</td>
+<td></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td></td>
+<td>GitLab</td>
+<td></td>
+<td>هاست‌ایران</td>
+<td></td>
+</tr>
+<tr>
+<td>آیدی پی</td>
+<td></td>
+<td>Office 365</td>
+<td></td>
+<td>PlayStation</td>
+<td></td>
+</tr>
+<tr>
+<td>Steam</td>
+<td></td>
+<td>Twitch</td>
+<td></td>
+<td>Uplay</td>
+<td></td>
+</tr>
+<tr>
+<td>Wikipedia</td>
+<td></td>
+<td>Xbox Live</td>
+<td></td>
+<td>YouTube</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>سرویسی را می‌شناسید که از احراز هویت دو عاملی پشتیبانی کرده و در لیست بالا موجود نیست؟ لطفا در بخش نظرات و یا به حساب توییتری <a href="https://twitter.com/voxxp" rel="nofollow">voxxp@</a> معرفی کنید تا به مطلب اضافه شود.</p><p>تصویر کاور از <a href="https://icons8.com" rel="nofollow">Ouch.pics</a></p>
+
+            </section>
+
+        </article>
+    </main>
+    <footer class="page-footer">
+        <h3>تایپو</h3>
+            <p>جواب‌های ساده برای سوال‌های ساده</p>
+        <p><a href="../../index.html">Read more posts →</a></p>
+        <a class="powered" href="https://ghost.org" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 156"><g fill="none" fill-rule="evenodd"><rect fill="#15212B" width="156" height="156" rx="27"/><g transform="translate(36 36)" fill="#F6F8FA"><path d="M0 71.007A4.004 4.004 0 014 67h26a4 4 0 014 4.007v8.986A4.004 4.004 0 0130 84H4a4 4 0 01-4-4.007v-8.986zM50 71.007A4.004 4.004 0 0154 67h26a4 4 0 014 4.007v8.986A4.004 4.004 0 0180 84H54a4 4 0 01-4-4.007v-8.986z"/><rect y="34" width="84" height="17" rx="4"/><path d="M0 4.007A4.007 4.007 0 014.007 0h41.986A4.003 4.003 0 0150 4.007v8.986A4.007 4.007 0 0145.993 17H4.007A4.003 4.003 0 010 12.993V4.007z"/><rect x="67" width="17" height="17" rx="4"/></g></g></svg> Published with Ghost</a></span>
+    </footer>
+    
+</body>
+</html>
